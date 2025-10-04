@@ -1,18 +1,3 @@
-// import React from 'react'
-// import { Link } from 'react-router-dom'
-// export default function LandingPage(){
-//   return (
-//     <section className='landing'>
-//       <div className='hero'>
-//         <div className='hero-content'>
-//           <h1>Paradise Nursery</h1>
-//           <p>Curated houseplants delivered to your home.</p>
-//           <Link className='btn' to='/products'>Get Started</Link>
-//         </div>
-//       </div>
-//     </section>
-//   )
-// }
 
 
 import React from 'react'

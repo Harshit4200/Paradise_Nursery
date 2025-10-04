@@ -1,17 +1,3 @@
-// import React from 'react'
-// export default function ProductCard({product,onAdd}){
-//   return (
-//     <div className='product-card'>
-//       <img src={product.img} alt={product.name} className='thumb'/>
-//       <div className='meta'>
-//         <h3>{product.name}</h3>
-//         <p className='price'>${product.price.toFixed(2)}</p>
-//         <button className='btn' onClick={onAdd}>Add to Cart</button>
-//       </div>
-//     </div>
-//   )
-// }
-
 import React from 'react'
 import { useSelector } from 'react-redux'
 
