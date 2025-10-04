@@ -1,7 +1,10 @@
+// src/main.jsx
+
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { Provider } from 'react-redux'
-import { BrowserRouter } from 'react-router-dom'
+// 1. Change this import
+import { HashRouter } from 'react-router-dom' 
 import App from './App'
 import store from './store/store'
 import './index.css'
@@ -9,9 +12,10 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      {/* 2. And change this component */}
+      <HashRouter>
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
   </React.StrictMode>
 )
